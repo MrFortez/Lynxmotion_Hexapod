@@ -9,7 +9,7 @@ Several years after @TimMcR's departure, I found the hexapod he worked on and wa
 2. Connect the 6V battery to the adapter connected to the SSC-32.
 3. Connect a 9V battery to the master Arduino (usb shield) via a barrel jack. Ensure the bluetooth dongle is in the usb port. It should be emitting a blue light; this shows that it is ready to recieve signals.
 4. Connect a 9V battery to the follower Arduino (no usb shield) via a barrel jack
-5. On your PS4 controller, press and hold share and start at the same time until the controller light turns solid dark blue.
+5. On your PS4 controller, press and hold share and start at the same time. This will activate the bluetooth pairing sequence, and the controller light should quickly flash light blue. Keep holding start and shar until the controller light turns solid dark blue.
 6. Once connected, press start to activate the hexapod. The hexapod should stand up with its legs and body level. It is now ready to be controlled.
 
 ## Controls:
@@ -32,6 +32,9 @@ When toggled, the robot will stand in place and lift one leg into the air. Press
 + Left stick: move selected leg horizontally.
 + Right stick: move selected leg vertically.
 + Options: change selected leg (the robot will chose the next leg through a predetermined pattern each time you press it)
+
+## Troubleshooting:
+The SSC-32 has an led that should be emitting solid green while the SSC-32 is powered. if the robot is limping and the light is flickering or off, then one of the power sources is likely drained. Charge the 6V battery or replace the 9V battery.
 
 
 
