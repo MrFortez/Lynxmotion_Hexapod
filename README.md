@@ -16,7 +16,7 @@ Several years after @TimMcR's departure, I found the hexapod he worked on and wa
 The Venom sticker is the front of the hexapod. L1, R1, and circle toggle different modes of stand still movement. 
 + Start (toggle): turns on/off the robot.
 + Triangle (toggle): robot drops down to where the body hits the ground, and toggling off will bring it back to normal.
-### Walk Mode:
+### Walk Mode (default):
 + Left stick up/down:  Walk Forward and Backwards
 + Left stick left/right: Rotate body by walking
 + Right stick left/right: Walk Left and Right.
