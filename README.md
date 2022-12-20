@@ -5,23 +5,22 @@ This is an updated and revived project based on the hexapod project made by [Tim
 Several years after @TimMcR's departure, I found the hexapod he worked on and wanted to revive it. However, the OneSheeld software he used to control it had since been discontinued, and the PS2 adapter he used previously was lost. I chose to use a SparkFun USB Host Shield and a wired PS4 Controller to control the Hexapod, using the [USB Host Shield 2.0](https://github.com/felis/USB_Host_Shield_2.0) library. I use a single arduino and the usb shield to control the servo controller. Once I got wired control to work, I then wanted to control it wireslessly with bluetooth. I bought a bluetooth usb dongle and converted the code from usb to bluetooth. However, the Arduino UNO did not have enough RAM to hold the code, so I switched to using two Arduino UNOs and I2C to communicate between them. This proved to work great, and it is the current setup used to control the hexapod.
 
 ## In order to use the Hexapod:
-1: Connect a 9V battery to the battery clip connected to the SSC-32.
-2: Connect the 6V battery to the adapter connected to the SSC-32.
-3: Connect a 9V battery to the master Arduino (usb shield) via a barrel jack. Ensure the bluetooth dongle is in the usb port. It should be emitting a blue light; this shows that it is ready to recieve signals.
-4: Connect a 9V battery to the follower Arduino (no usb shield) via a barrel jack
-5: On your PS4 controller, press and hold share and start at the same time until the controller light turns solid dark blue.
-6: Once connected, press start to activate the hexapod. The hexapod should stand up with its legs and body level. It is now ready to be controlled.
+1. Connect a 9V battery to the battery clip connected to the SSC-32.
+2. Connect the 6V battery to the adapter connected to the SSC-32.
+3. Connect a 9V battery to the master Arduino (usb shield) via a barrel jack. Ensure the bluetooth dongle is in the usb port. It should be emitting a blue light; this shows that it is ready to recieve signals.
+4. Connect a 9V battery to the follower Arduino (no usb shield) via a barrel jack
+5. On your PS4 controller, press and hold share and start at the same time until the controller light turns solid dark blue.
+6. Once connected, press start to activate the hexapod. The hexapod should stand up with its legs and body level. It is now ready to be controlled.
 
 ## Controls:
-The Venom sticker is the front of the hexapod.
-L1 and R1 toggle different modes of stand still movement. 
+The Venom sticker is the front of the hexapod. L1 and R1 toggle different modes of stand still movement. 
 ### Walk Mode:
-Left stick up/down:  Walk Forward and Backwards
-Left stick left/right: Rotate body
-right stick left/right: Walk Left and Right
++ Left stick up/down:  Walk Forward and Backwards
++ Left stick left/right: Rotate body
++ Right stick left/right: Walk Left and Right
 ### L1 
-Left stick: robot will lean in the direction you push the stick.
-right stick up/down: the robot wi
++ Left stick: robot will lean in the direction you push the stick.
++ Right stick up/down: the robot wi
 
 
 
