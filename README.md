@@ -13,14 +13,25 @@ Several years after @TimMcR's departure, I found the hexapod he worked on and wa
 6. Once connected, press start to activate the hexapod. The hexapod should stand up with its legs and body level. It is now ready to be controlled.
 
 ## Controls:
-The Venom sticker is the front of the hexapod. L1 and R1 toggle different modes of stand still movement. 
+The Venom sticker is the front of the hexapod. L1, R1, and circle toggle different modes of stand still movement. 
++ Start (toggle): turns on/off the robot.
++ Triangle (toggle): robot drops down to where the body hits the ground, and toggling off will bring it back to normal.
 ### Walk Mode:
 + Left stick up/down:  Walk Forward and Backwards
-+ Left stick left/right: Rotate body
-+ Right stick left/right: Walk Left and Right
++ Left stick left/right: Rotate body by walking
++ Right stick left/right: Walk Left and Right.
 ### L1 
-+ Left stick: robot will lean in the direction you push the stick.
-+ Right stick up/down: the robot wi
++ Left stick: the robot will lean in the direction you push the stick.
++ Right stick up/down: the robot will push itself up/down.
++ Right sitck left/right: the robot will twist in place.
+### R1
++ Left stick: the robot will tilt its body, the highest point will be the direction of the stick.
++ Right stick: same as L1.
+### Circle (Single Leg Control)
+When toggled, the robot will stand in place and lift one leg into the air. Press circle again to return to walk mode.
++ Left stick: move selected leg horizontally.
++ Right stick: move selected leg vertically.
++ Options: change selected leg (the robot will chose the next leg through a predetermined pattern each time you press it)
 
 
 
