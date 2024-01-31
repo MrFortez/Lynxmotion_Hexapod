@@ -37,4 +37,5 @@ When toggled, the robot will stand in place and lift one leg into the air. Press
 The SSC-32 has an led that should be emitting solid green while the SSC-32 is powered. if the robot is limping and the light is flickering or off, then one of the power sources is likely drained. Charge the 6V battery or replace the 9V battery.
 
 
+![image](https://github.com/MrFortez/Lynxmotion_Hexapod/assets/55511864/3ddcaf4a-6574-4974-9f21-a9f2cfd017ac)
 
